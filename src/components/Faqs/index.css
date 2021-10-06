@@ -1,0 +1,43 @@
+.app-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqs-container {
+  background-color: #ffffff;
+  border: 1px solid #d7dae6;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90vw;
+  padding: 30px;
+}
+.heading {
+  color: #cb8805;
+  font-size: 10vh;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 6vh;
+  }
+}
+
+/* 
+Hex: #cb8805
+Hex: #52606d
+Hex: #9aa5b1
+Border Colors
+Hex: #d7dae6
+Hex: #e4e7eb
+Background Colors
+Hex: #ffffff
+Hex: #f1f5f8
+Font-families
+ */
